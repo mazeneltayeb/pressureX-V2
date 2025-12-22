@@ -63,7 +63,7 @@ export default function Dashboard() {
           <Card className="text-center shadow-sm">
             <Card.Body>
               <Card.Title>pdfs</Card.Title>
-              <Button variant="primary" onClick={() => router.push("/dashboard/articles")}>
+              <Button variant="primary" onClick={() => router.push("/dashboard/pdfs")}>
                 اضغط هنا          
              </Button>
             </Card.Body>
