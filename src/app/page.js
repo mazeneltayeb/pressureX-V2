@@ -12,6 +12,7 @@ import ProductCategories from "@/components/ProductCategories"
 import Numbers from "@/components/Numbers";
 import SwiperCarSlider from "@/components/SwiperCarSlider";
 import 'swiper/css/bundle';
+import SwiperCustomers from "@/components/SwiperCustomers";
 
 export default function Home() {
   return (
@@ -30,12 +31,15 @@ export default function Home() {
         showNavigation={true}
         loop={true}
       />
-      {/* <SlickSlider/> */}
-  {/* <section id="articles" style={{ padding: "40px 20px" }}>
-    <LatestArticles />
-  </section> */}
+
   <ProductCategories/>
-  
+    <SwiperCustomers
+      autoPlay={true}
+        delay={3000}
+        showPagination={true}
+        showNavigation={true}
+        loop={true}
+  />
    <LatestArticles />
 <Numbers/>
   {/* إعلان داخل الصفحة */}

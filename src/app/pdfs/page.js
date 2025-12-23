@@ -461,7 +461,7 @@ const handleDownload = async (pdf) => {
       </Modal>
 
       {/* إحصائيات */}
-      <div className="text-center mt-5 p-4 bg-light rounded">
+      {/* <div className="text-center mt-5 p-4 bg-light rounded">
         <h5>📊 إحصائيات المكتبة</h5>
         <Row className="mt-3">
           <Col md={4}>
@@ -485,7 +485,7 @@ const handleDownload = async (pdf) => {
             </div>
           </Col>
         </Row>
-      </div>
+      </div> */}
     </Container>
   );
 }

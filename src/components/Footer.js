@@ -51,7 +51,7 @@ export default function Footer() {
           </Col>
            <div className="location col-md-4">
         <iframe
-           src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=250%20Woodbridge%20Center%20Dr,%20Woodbridge,%20NJ%2007095+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.4384535210542!2d32.253691369484976!3d30.61270645260936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f85bb885ce1b61%3A0xed71752bdb70e077!2z2KfYqNmIINix2KjYuSDZhNmC2LfYuSDYutmK2KfYsSDYp9mE2LPZitin2LHYp9iq!5e0!3m2!1sen!2seg!4v1766523074810!5m2!1sen!2seg" 
             frameBorder="0"
             style={{ border: 0 ,height:"100%" ,width:"100%"}}
             allowFullScreen=""
