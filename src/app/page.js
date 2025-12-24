@@ -13,6 +13,7 @@ import Numbers from "@/components/Numbers";
 import SwiperCarSlider from "@/components/SwiperCarSlider";
 import 'swiper/css/bundle';
 import SwiperCustomers from "@/components/SwiperCustomers";
+import WeOffer from "@/components/WeOffer";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         showNavigation={true}
         loop={true}
   />
+  <WeOffer/>
    <LatestArticles />
 <Numbers/>
   {/* إعلان داخل الصفحة */}

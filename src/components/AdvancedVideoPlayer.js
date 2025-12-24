@@ -360,7 +360,10 @@ const AdvancedVideoPlayer = ({
         height:" 40px",
         // border:"0"
       }}>
-من نحن      
+
+من نحن     
+  
+ 
       </div>
       
       <p style={{
@@ -439,7 +442,7 @@ const AdvancedVideoPlayer = ({
           height: '100%',
           // borderRadius: '12px',
           overflow: 'hidden',
-          // boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+          boxShadow: 'var(--mainColor) 0px 0px 4px 0px',
           // backgroundColor: '#000'
         }}>
           <div 

@@ -70,7 +70,13 @@ a {
   /* margin-bottom: 40px; */
   /* background-color: var(--mainColor); */
 }
-@media (min-width:767px) {
+/* 
+.latest-articles-section div p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* @media (min-width:767px) {
   .latest-articles-section div p{
   max-width: 60%;
 }
@@ -80,7 +86,7 @@ a {
   .latest-articles-section div p{
   max-width: 50%;
 }
-}
+} */
 .article-card {
   transition: all 0.3s ease-in-out;
   border-radius: 12px;
@@ -477,3 +483,15 @@ color: black ;
   transform: translateX(5px);
 }
 /* end dashbord pdfs */
+
+
+.we-offer-icon:first-child{
+  font-size: 36px;
+  color: var(--mainColor);
+  font-weight: bold;
+  box-shadow:var(--mainColor) -1px -2px 0px 0px
+}
+.we-offer-icon svg{
+font-size: 100px;
+color: var(--mainColor);
+}
